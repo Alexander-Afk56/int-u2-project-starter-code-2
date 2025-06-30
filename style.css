@@ -23,18 +23,67 @@ h2 {
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
-    display:flex;
-    justify-content:space-between;
-}
-
-/* The code below a solid black border to section and puts space between them (the margin). */
-.section {
-  margin-right: 5px;
-    margin-left: 5px;
-      margin-top: 5px;
-    margin-bottom: 5px;
+ 
     border-style: solid;
    border-color: rgb(2, 49, 7);
    border-width: 5px;
+   fill: black;
+  
+}
+ .para3 {
+    text-indent: 50px;
+    
 
+ }  
+
+
+
+/* The code below a solid black border to section and puts space between them (the margin). */
+.section1 {
+
+    border-style: solid;
+   border-color: rgb(2, 49, 7);
+   border-width: 5px;
+   
+  
+}
+.section2 {
+  
+    border-style: solid;
+   border-color: rgb(2, 49, 7);
+   border-width: 5px;
+   
+  
+}
+.section3 {
+ 
+    border-style: solid;
+   border-color: rgb(2, 49, 7);
+   border-width: 5px;
+   
+  
+}
+.img1{
+    margin-right: 25px;
+    margin-left: 25px;
+     margin-bottom: 25px;
+    margin-top: 25px;
+    width: 350px;
+    height: 250px;
+}
+.img2{
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 350px;
+    height: 218px;
+}
+.img3{
+    margin-right: 25px;
+    margin-left: 25px;
+     margin-bottom: 25px;
+    margin-top: 25px;
+    width: 350px;
+    height: 250px;
 }
