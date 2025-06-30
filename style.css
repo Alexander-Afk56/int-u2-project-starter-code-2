@@ -6,9 +6,14 @@ h1 {
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:400px;
+margin-left: auto;
+margin-right: auto;
+ border-spacing: 5px;
+  width: 400px;
+  border-radius: 15%;
+  border-style: solid;
+  border-color: rgb(2, 49, 7);
+  border-width: 5px;
 }
 
 /* The code below centers the text of all h2's on the page. */
@@ -24,6 +29,12 @@ h2 {
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
-    margin:5px;
+  margin-right: 5px;
+    margin-left: 5px;
+      margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: solid;
+   border-color: rgb(2, 49, 7);
+   border-width: 5px;
+
 }
